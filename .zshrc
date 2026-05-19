@@ -121,3 +121,5 @@ alias p=python
 
 # Created by `pipx` on 2026-05-18 17:27:22
 export PATH="$PATH:/home/luke/.local/bin"
+
+eval "$(starship init zsh)"
