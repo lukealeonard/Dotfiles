@@ -1,7 +1,8 @@
 @import "mocha.css";
 
 * {
-        font-family: MapleMono;
+        font-family: Aidawata, JetBrainsMonoNerdFont;
+        font-size: 15;
 }
 
 /*###########################*/

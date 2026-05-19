@@ -25,7 +25,7 @@ include current-theme.conf
 #: <https://sw.kovidgoyal.net/kitty/kittens/choose-fonts/#font-spec-
 #: syntax>.
 
-font_size 12
+font_size 14
 
 #: Font size (in pts).
 
@@ -294,8 +294,6 @@ font_size 12
 #: so if you want to override it, place your value after the lines
 #: where the theme file is included.
 
-# cursor_shape block
-
 #: The cursor shape can be one of block, beam, underline. Note that
 #: when reloading the config this will be changed only if the cursor
 #: shape has not been set by the program running in the terminal. This
@@ -311,7 +309,7 @@ font_size 12
 #: The unfocused cursor shape can be one of block, beam, underline,
 #: hollow and unchanged (leave the cursor shape as it is).
 
-# cursor_beam_thickness 1.5
+cursor_beam_thickness 8
 
 #: The thickness of the beam cursor (in pts).
 
@@ -344,7 +342,7 @@ font_size 12
 #: setting also controls blinking text, which blinks in exact rhythm
 #: with the cursor.
 
-# cursor_trail 0
+cursor_trail 1
 
 #: Set this to a value larger than zero to enable a "cursor trail"
 #: animation. This is an animation that shows a "trail" following the
@@ -1590,7 +1588,7 @@ font_size 12
 
 #: The foreground and background colors.
 
-background_opacity 1
+background_opacity 0.6
 
 #: The opacity of the terminal background color. A number between zero
 #: and one, where one is opaque and zero is fully transparent. This
@@ -3157,7 +3155,7 @@ background_opacity 1
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="JetBrainsMono Nerd Font Mono"
+font_family      family="Inconsolata"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
