@@ -1,0 +1,292 @@
+@import "mocha.css";
+
+* {
+        font-family: MapleMono;
+}
+
+/*###########################*/
+/*###########################*/
+
+window#waybar {
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        border-radius: 0px;
+        border-color: transparent;
+        background: rgba(0, 0, 0, 0);
+        color: transparent;
+        box-shadow: none;
+        text-shadow: none;
+        transition: none;
+}
+
+/*###########################*/
+/*###########################*/
+
+#custom-oslogo {
+        margin: 0px;
+        padding-left: 14px;
+        padding-right: 10px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @surface0;
+        background: alpha(@base, 0.6);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: 0.3s ease;
+}
+
+#custom-oslogo:hover {
+        margin: 0px;
+        padding-left: 14px;
+        padding-right: 10px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @lavender;
+        background: alpha(@base, 0.6);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: 0.3s ease;
+}
+
+/*###########################*/
+/*###########################*/
+
+#workspaces {
+        margin: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @surface0; 
+        background: alpha(@base, 0.6);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: none;
+}
+
+#workspaces:hover {
+        margin: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @surface0;
+        background: alpha(@base, 0.6);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: none;
+}
+
+#workspaces button {
+        margin-right: 1px;
+        margin-left: 1px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: transparent; 
+        background: transparent;
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: 0.3s ease;
+}
+
+#workspaces button:hover {
+        margin: 0px;
+        margin-left: 1px;
+        margin-right: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @lavender;
+        background: alpha(@base, 0.6);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: 0.3s ease;
+}
+
+#workspaces button.active {
+        margin-right: 1px;
+        margin-left: 1px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @lavender;
+        background: alpha(@mauve, 0.65);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: 0.3s ease;
+        font-weight: bold;
+}
+
+/*###########################*/
+/*###########################*/
+
+#network {
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @surface0;
+        background: alpha(@base, 0.6);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: 0.3s ease;
+}
+
+#network:hover {
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @lavender;
+        background: alpha(@base, 0.6);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: 0.3s ease;
+}
+
+/*###########################*/
+/*###########################*/
+
+#clock { 
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @surface0;
+        background: alpha(@base, 0.6);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: 0.3s ease;
+}
+
+#clock:hover { 
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @lavender;
+        background: alpha(@base, 0.6);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: 0.3s ease;
+}
+
+/*###########################*/
+/*###########################*/
+
+#pulseaudio {
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @surface0;
+        background: alpha(@base, 0.6);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: 0.3s ease;
+}
+
+#pulseaudio:hover {
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @lavender;
+        background: alpha(@base, 0.6);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: 0.3s ease;
+}
+
+/*###########################*/
+/*###########################*/
+
+#backlight {
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @surface0;
+        background: alpha(@base, 0.6);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: 0.3s ease;
+}
+
+#backlight:hover {
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @lavender;
+        background: alpha(@base, 0.6);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: 0.3s ease;
+}
+
+/*###########################*/
+/*###########################*/
+
+#battery {
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @surface0;
+        background: alpha(@base, 0.6);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: 0.3s ease;
+}
+
+#battery:hover {
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 2px solid;
+        border-radius: 0px;
+        border-color: @lavender;
+        background: alpha(@base, 0.6);
+        color: @text;
+        box-shadow: none;
+        text-shadow: none;
+        transition: 0.3s ease;
+}
+
+/*###########################*/
+/*###########################*/

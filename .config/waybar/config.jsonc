@@ -1,0 +1,84 @@
+// WAYBAR GENERAL //
+
+{
+        "layer": "top",
+        "position": "top",
+        "margin-top": 5,
+        "margin-bottom": 5,
+        "margin-left": 5,
+        "margin-right": 5,
+        "max-height": 20,
+        "spacing": 8,
+
+// LEFT MODULES //
+
+        "modules-left": ["custom/oslogo", "hyprland/workspaces", "network"],
+        
+        "custom/oslogo": {
+                "format": "󰣇 ",
+                "tooltip": false,
+                "on-click": "rofi -show drun"
+        },
+
+        "hyprland/workspaces": {
+                "persistent-workspaces": {
+                        "*": 4
+                }, 
+                "height": 20
+        },
+
+        "network": {
+                "interval": 60,
+                "format": "{essid} {icon}",
+                "format-icons": ["󰤟 ", "󰤢 ", "󰤥 ", "󰤨 "],
+                "format-disconnected": "󰤮 ",
+                "format-disabled": "󰤫 "
+        },
+
+// CENTER MODULES //
+
+        "modules-center": ["clock"],
+        "clock": {
+                "interval": 60,
+                "format": "{:%H:%M}",
+                "max-length": 25,
+                "tooltip": false
+        },
+
+// RIGHT MODULES //
+
+        "modules-right": ["pulseaudio", "backlight", "battery"],
+
+        "group/audio": {
+                "orientation": "horizontal",
+                "modules": ["pulseaudio/slider", "pulseaudio"]
+        },
+
+        "pulseaudio/slider": {
+                "min": 0,
+                "max": 100,
+                "orientation": "horizontal"
+        },
+
+        "pulseaudio": {
+                "format": "{icon} {volume}%",
+                "format-icons": ["󰕿", "󰖀", "󰕾"],
+                "format-muted": "󰖁 0%"
+        },
+
+        "backlight": {
+                "device": "intel_backlight",
+                "format": "{icon} {percent}%",
+                "format-icons": ["󰃞", "󰃟", "󰃠"] 
+        },
+
+        "battery": {
+                "bat": "BAT0",
+                "interval": 60,
+                "format": "{capacity}% {icon}",
+                "format-icons": {
+                        "default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+                        "charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"] 
+                }                
+        }
+}
