@@ -123,3 +123,4 @@ alias p=python
 export PATH="$PATH:/home/luke/.local/bin"
 
 eval "$(starship init zsh)"
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
