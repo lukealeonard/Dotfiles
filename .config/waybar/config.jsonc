@@ -15,7 +15,7 @@
         "modules-left": ["custom/oslogo", "hyprland/workspaces", "network"],
         
         "custom/oslogo": {
-                "format": "󰣇 ",
+                "format": " 󰣇 ",
                 "tooltip": false,
                 "on-click": "rofi -show drun"
         },
@@ -29,10 +29,10 @@
 
         "network": {
                 "interval": 60,
-                "format": "{essid} {icon}",
-                "format-icons": ["󰤟 ", "󰤢 ", "󰤥 ", "󰤨 "],
-                "format-disconnected": "󰤮 ",
-                "format-disabled": "󰤫 "
+                "format": " {essid}{icon}",
+                "format-icons": [" 󰤟 ", " 󰤢 ", " 󰤥 ", " 󰤨 "],
+                "format-disconnected": " 󰤮 ",
+                "format-disabled": " 󰤫 "
         },
 
 // CENTER MODULES //
@@ -40,7 +40,7 @@
         "modules-center": ["clock"],
         "clock": {
                 "interval": 60,
-                "format": "{:%H:%M}",
+                "format": " {:%H:%M} ",
                 "max-length": 25,
                 "tooltip": false
         },
@@ -61,24 +61,24 @@
         },
 
         "pulseaudio": {
-                "format": "{icon} {volume}%",
-                "format-icons": ["󰕿", "󰖀", "󰕾"],
-                "format-muted": "󰖁 0%"
+                "format": "{icon}{volume}% ",
+                "format-icons": [" 󰕿 ", " 󰖀 ", " 󰕾 "],
+                "format-muted": " 󰖁  0%"
         },
 
         "backlight": {
                 "device": "intel_backlight",
-                "format": "{icon} {percent}%",
-                "format-icons": ["󰃞", "󰃟", "󰃠"] 
+                "format": "{icon}{percent}% ",
+                "format-icons": [" 󰃞 ", " 󰃟 ", " 󰃠 "] 
         },
 
         "battery": {
                 "bat": "BAT0",
                 "interval": 60,
-                "format": "{capacity}% {icon}",
+                "format": "{icon}{capacity}% ",
                 "format-icons": {
-                        "default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
-                        "charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"] 
+                        "default": [" 󰂎 ", " 󰁺 ", " 󰁻 ", " 󰁼 ", " 󰁽 ", " 󰁾 ", " 󰁿 ", " 󰂀 ", " 󰂁 ", " 󰂂 ", " 󰁹 "],
+                        "charging": [" 󰢟 ", " 󰢜 ", " 󰂆 ", " 󰂇 ", " 󰂈 ", " 󰢝 ", " 󰂉 ", " 󰢞 ", " 󰂊 ", " 󰂋 ", " 󰂅 "] 
                 }                
         }
 }

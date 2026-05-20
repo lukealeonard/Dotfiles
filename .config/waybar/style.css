@@ -1,8 +1,8 @@
 @import "mocha.css";
 
 * {
-        font-family: Aidawata, JetBrainsMonoNerdFont;
-        font-size: 15;
+        font-family: Adwaita, JetBrainsMonoNerdFontPropo;
+        font-size: 16;
 }
 
 /*###########################*/
@@ -26,8 +26,10 @@ window#waybar {
 
 #custom-oslogo {
         margin: 0px;
-        padding-left: 14px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 0px;
+        padding-top: 2px;
         border: 2px solid;
         border-radius: 0px;
         border-color: @surface0;
@@ -40,8 +42,10 @@ window#waybar {
 
 #custom-oslogo:hover {
         margin: 0px;
-        padding-left: 14px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 0px;
+        padding-top: 2px;
         border: 2px solid;
         border-radius: 0px;
         border-color: @lavender;
@@ -88,8 +92,8 @@ window#waybar {
         margin-left: 1px;
         margin-top: 0px;
         margin-bottom: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
         border-color: transparent; 
@@ -104,8 +108,8 @@ window#waybar {
         margin: 0px;
         margin-left: 1px;
         margin-right: 1px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
         border-color: @lavender;
@@ -121,8 +125,8 @@ window#waybar {
         margin-left: 1px;
         margin-top: 0px;
         margin-bottom: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
         border-color: @lavender;
@@ -139,8 +143,8 @@ window#waybar {
 
 #network {
         margin: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
         border-color: @surface0;
@@ -153,8 +157,8 @@ window#waybar {
 
 #network:hover {
         margin: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
         border-color: @lavender;
@@ -170,8 +174,8 @@ window#waybar {
 
 #clock { 
         margin: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
         border-color: @surface0;
@@ -184,8 +188,8 @@ window#waybar {
 
 #clock:hover { 
         margin: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
         border-color: @lavender;
@@ -201,8 +205,8 @@ window#waybar {
 
 #pulseaudio {
         margin: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
         border-color: @surface0;
@@ -215,8 +219,8 @@ window#waybar {
 
 #pulseaudio:hover {
         margin: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
         border-color: @lavender;
@@ -232,8 +236,8 @@ window#waybar {
 
 #backlight {
         margin: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
         border-color: @surface0;
@@ -246,8 +250,8 @@ window#waybar {
 
 #backlight:hover {
         margin: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
         border-color: @lavender;
@@ -263,8 +267,8 @@ window#waybar {
 
 #battery {
         margin: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
         border-color: @surface0;
@@ -277,8 +281,8 @@ window#waybar {
 
 #battery:hover {
         margin: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
         border-color: @lavender;

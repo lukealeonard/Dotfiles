@@ -12,7 +12,6 @@ vim.cmd([[
 require("config.lazy")
 
 vim.opt.statuscolumn = "%s %{v:relnum == 0 ? v:lnum : v:relnum} "
-vim.api.nvim_set_hl(0, 'CursorLine', { underline = true, bg = 'NONE' })
 vim.opt.mouse = ""
 
 vim.keymap.set('n', '<Up>', '<Nop>', { silent = true })
