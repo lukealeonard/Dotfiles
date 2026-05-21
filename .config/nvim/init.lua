@@ -10,6 +10,7 @@ vim.cmd([[
 ]])
 
 require("config.lazy")
+require("config.keymaps")
 
 vim.opt.statuscolumn = "%s %{v:relnum == 0 ? v:lnum : v:relnum} "
 vim.opt.mouse = ""

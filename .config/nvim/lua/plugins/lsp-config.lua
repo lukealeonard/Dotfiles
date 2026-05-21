@@ -7,15 +7,44 @@ return {
     dependencies = { "williamboman/mason.nvim" },
     opts = {
       ensure_installed = { "lua_ls", "clangd", "pyright" },
-      automatic_installation = true,
+      automatic_enable = true,
+    },
+  },
+
+  {
+    "saghen/blink.cmp",
+    version = "*",
+    opts = {
+      keymap = { preset = "default" },
+      sources = {
+        default = { "lsp", "path", "snippets", "buffer" },
+      },
     },
   },
 
   {
     "neovim/nvim-lspconfig",
-    dependencies = { "williamboman/mason-lspconfig.nvim" },
+    dependencies = { "williamboman/mason-lspconfig.nvim", "saghen/blink.cmp" },
     config = function()
-      -- Override/extend a server's default config
+      vim.diagnostic.config({
+        signs = {
+          text = {
+            [vim.diagnostic.severity.ERROR] = "×",
+            [vim.diagnostic.severity.WARN]  = "!",
+            [vim.diagnostic.severity.HINT]  = "⚑",
+            [vim.diagnostic.severity.INFO]  = "ℹ",
+          },
+        },
+        virtual_text = true,
+        underline = true,
+        update_in_insert = false,
+        severity_sort = true,
+        float = {
+          border = "rounded",
+          source = true,
+        },
+      })
+
       vim.lsp.config("lua_ls", {
         settings = {
           Lua = {
@@ -25,7 +54,6 @@ return {
         },
       })
 
-      -- Enable the servers you want (nvim-lspconfig provides the defaults)
       vim.lsp.enable({ "lua_ls", "clangd", "pyright" })
     end,
   },
