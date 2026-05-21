@@ -61,18 +61,6 @@ element selected.active {
 	background-color: @selected-active-background;
 	text-color:       @selected-active-foreground;
 }
-element alternate.normal {
-	background-color: @alternate-normal-background;
-	text-color:       @alternate-normal-foreground;
-}
-element alternate.urgent {
-	background-color: @alternate-urgent-background;
-	text-color:       @alternate-urgent-foreground;
-}
-element alternate.active {
-	background-color: @alternate-active-background;
-	text-color:       @alternate-active-foreground;
-}
 element-text {
 	background-color: transparent;
 	cursor:	      inherit;
@@ -87,16 +75,17 @@ element-icon {
 }
 window {
 	padding:	      5;
-	background-color: rgba(30, 30, 46, 0.6);
+	background-color: @base;
 	border:	      2;
-	width: 1910px;
-	x-offset: 5px;
+	width: 570px;
+        height: 200;
+	x-offset: 339px;
 	y-offset: -45px;
 }
 mainbox {
 	padding: 0;
 	border:  0;
-	orientation: horizontal;
+	orientation: vertical;
 	background-color: rgba(30, 30, 46, 0.6);
 }
 message {

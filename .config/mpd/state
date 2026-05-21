@@ -1,0 +1,35 @@
+sw_volume: 100
+audio_device_state:1:My Pipewire
+state: pause
+current: 10
+time: 49.182
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:Scriabin - The Complete Piano Sonatas/CD 1/01. Piano Sonata No. 1 in F Minor, Op. 6 -  I. Allegro con fuoco.flac
+1:Scriabin - The Complete Piano Sonatas/CD 1/02. Piano Sonata No. 1 in F Minor, Op. 6 -  II. [Adagio].flac
+2:Scriabin - The Complete Piano Sonatas/CD 1/03. Piano Sonata No. 1 in F Minor, Op. 6 -  III. Presto.flac
+3:Scriabin - The Complete Piano Sonatas/CD 1/04. Piano Sonata No. 1 in F Minor, Op. 6 -  IV. Funèbre.flac
+4:Scriabin - The Complete Piano Sonatas/CD 1/05. Piano Sonata No. 2 in G-Sharp Minor, Op. 19 Sonata-Fantasy -  I. Andante.flac
+5:Scriabin - The Complete Piano Sonatas/CD 1/06. Piano Sonata No. 2 in G-Sharp Minor, Op. 19 Sonata-Fantasy -  II. Presto.flac
+6:Scriabin - The Complete Piano Sonatas/CD 1/07. Piano Sonata No. 3 in F-Sharp Minor, Op. 23 -  I. Drammatico.flac
+7:Scriabin - The Complete Piano Sonatas/CD 1/08. Piano Sonata No. 3 in F-Sharp Minor, Op. 23 -  II. Allegretto.flac
+8:Scriabin - The Complete Piano Sonatas/CD 1/09. Piano Sonata No. 3 in F-Sharp Minor, Op. 23 -  III. Andante.flac
+9:Scriabin - The Complete Piano Sonatas/CD 1/10. Piano Sonata No. 3 in F-Sharp Minor, Op. 23 -  IV. Presto con fuoco.flac
+10:Scriabin - The Complete Piano Sonatas/CD 1/11. Fantaisie in B Minor, Op. 28.flac
+11:Scriabin - The Complete Piano Sonatas/CD 1/12. Piano Sonata No. 4 in F-Sharp Major, Op. 30 -  I. Andante.flac
+12:Scriabin - The Complete Piano Sonatas/CD 1/13. Piano Sonata No. 4 in F-Sharp Major, Op. 30 -  II. Prestissimo volando.flac
+13:Scriabin - The Complete Piano Sonatas/CD 2/14. Piano Sonata No. 5, Op. 53.flac
+14:Scriabin - The Complete Piano Sonatas/CD 2/15. Piano Sonata No. 6, Op. 62.flac
+15:Scriabin - The Complete Piano Sonatas/CD 2/16. Piano Sonata No. 7, Op. 64 White Mass.flac
+16:Scriabin - The Complete Piano Sonatas/CD 2/17. Piano Sonata No. 8, Op. 66.flac
+17:Scriabin - The Complete Piano Sonatas/CD 2/18. Piano Sonata No. 9, Op. 68 Black Mass.flac
+18:Scriabin - The Complete Piano Sonatas/CD 2/19. Piano Sonata No. 10, Op. 70.flac
+19:Scriabin - The Complete Piano Sonatas/CD 2/20. Sonate-fantaisie in G-Sharp Minor, WoO 6.flac
+playlist_end
