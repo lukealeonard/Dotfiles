@@ -25,6 +25,7 @@
                 "persistent-workspaces": {
                         "*": 4
                 }, 
+                "on-click": "activate",
                 "height": 20
         },
 
@@ -64,7 +65,7 @@
         "pulseaudio": {
                 "format": "{icon}{volume}% ",
                 "format-icons": [" 󰕿 ", " 󰖀 ", " 󰕾 "],
-                "format-muted": " 󰖁  0%"
+                "format-muted": " 󰖁  0% "
         },
 
         "backlight": {
