@@ -27,7 +27,7 @@ local colors = require("catppuccin.colors")
 hl.config({
         general = {
                 gaps_in = 5,
-                gaps_out = 5,
+                gaps_out = 20,
                 border_size = 2,
                 col = {
                         active_border = colors.lavender,
@@ -38,10 +38,10 @@ hl.config({
                 layout = "dwindle",
         },
         decoration = {
-                rounding = 10,
+                rounding = 18,
                 rounding_power = 2,
                 active_opacity = 1.0,
-                inactive_opacity = 1.0,
+                inactive_opacity = 0.6,
                 shadow = {
                         enabled = true,
                         range = 16,
@@ -51,7 +51,7 @@ hl.config({
                 blur = {
                         enabled = true,
                         size = 1,
-                        passes = 4,
+                        passes = 6,
                         vibrancy = 0.2,
                 },
         },
