@@ -1,5 +1,5 @@
 format = """
- $directory$fill$git_branch$git_status$git_state$git_metrics$time 
+ $directory$fill$python$rust$c$lua $git_branch$git_status$git_state$git_metrics $time 
  $character"""
 
 add_newline = false
@@ -15,4 +15,5 @@ symbol = " "
 success_symbol = "[➜](bold green)"
 error_symbol = "[➜](bold red)"
 
-
+[python]
+symbol = " "
