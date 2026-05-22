@@ -1,2 +1,18 @@
+format = """
+ $directory$fill$git_branch$git_status$git_state$git_metrics$time 
+ $character"""
 
 add_newline = false
+
+[time]
+disabled = false
+format = "[$time](bright-black)"
+
+[fill]
+symbol = " "
+
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[➜](bold red)"
+
+
