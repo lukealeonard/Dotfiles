@@ -15,7 +15,7 @@ hl.window_rule({
         no_focus = false,
 })
 
-hl.layer_rule ({
+hl.layer_rule({
         name = "blur-waybar",
         match = { class = "waybar" },
         blur = true,
