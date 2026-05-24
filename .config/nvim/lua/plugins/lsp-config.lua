@@ -6,7 +6,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     dependencies = { "williamboman/mason.nvim" },
     opts = {
-      ensure_installed = { "lua_ls", "clangd", "pyright" },
+      ensure_installed = { "lua_ls", "clangd", "pyright", "rust_analyzer" },
       automatic_enable = true,
     },
   },
@@ -54,7 +54,7 @@ return {
         },
       })
 
-      vim.lsp.enable({ "lua_ls", "clangd", "pyright" })
+      vim.lsp.enable({ "lua_ls", "clangd", "pyright", "rust_analyzer", })
     end,
   },
 }

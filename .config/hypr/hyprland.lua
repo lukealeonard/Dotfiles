@@ -27,7 +27,7 @@ local colors = require("catppuccin.colors")
 hl.config({
         general = {
                 gaps_in = 5,
-                gaps_out = { top = 5, right = 20, bottom = 20, left = 20 },
+                gaps_out = { top = 70, right = 20, bottom = 20, left = 20 },
                 border_size = 2,
                 col = {
                         active_border = colors.lavender,
