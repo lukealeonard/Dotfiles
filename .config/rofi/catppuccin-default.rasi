@@ -75,12 +75,14 @@ element-icon {
 }
 window {
 	padding:	      5;
-	background-color: @base;
+	background-color: rgba(30, 30, 46, 0.6);
 	border:	      2;
-	width: 570px;
-        height: 200;
-	x-offset: 339px;
-	y-offset: -45px;
+        border-color: @lavender;
+        border-radius: 18;
+	width: 1880px;
+        height: 40;
+	x-offset: 20px;
+	y-offset: 20px;
 }
 mainbox {
 	padding: 0;
@@ -103,7 +105,7 @@ listview {
 	spacing:	  2px ;
 	fixed-height: 0;
 	border:	  0;
-	columns: 3;
+	columns: 5;
 	lines: 1;
 }
 scrollbar {

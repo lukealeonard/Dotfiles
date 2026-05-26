@@ -32,7 +32,7 @@ window#waybar {
         padding-top: 2px;
         border: 2px solid;
         border-radius: 18px;
-        border-color: @surface0;
+        border-color: transparent;
         background: alpha(@base, 0.6);
         color: @text;
         box-shadow: none;
@@ -65,7 +65,7 @@ window#waybar {
         padding-right: 0px;
         border: 2px solid;
         border-radius: 18px;
-        border-color: @surface0; 
+        border-color: transparent;
         background: alpha(@base, 0.6);
         color: @text;
         box-shadow: none;
@@ -79,7 +79,7 @@ window#waybar {
         padding-right: 0px;
         border: 2px solid;
         border-radius: 18px;
-        border-color: @surface0;
+        border-color: transparent;
         background: alpha(@base, 0.6);
         color: @text;
         box-shadow: none;
@@ -147,7 +147,7 @@ window#waybar {
         padding-right: 5px;
         border: 2px solid;
         border-radius: 18px;
-        border-color: @surface0;
+        border-color: transparent;
         background: alpha(@base, 0.6);
         color: @teal;
         box-shadow: none;
@@ -178,7 +178,7 @@ window#waybar {
         padding-right: 5px;
         border: 2px solid;
         border-radius: 18px;
-        border-color: @surface0;
+        border-color: transparent;
         background: alpha(@base, 0.6);
         color: @text;
         box-shadow: none;
@@ -209,7 +209,7 @@ window#waybar {
         padding-right: 5px;
         border: 2px solid;
         border-radius: 18px;
-        border-color: @surface0;
+        border-color: transparent;
         background: alpha(@base, 0.6);
         color: @green;
         box-shadow: none;
@@ -240,7 +240,7 @@ window#waybar {
         padding-right: 5px;
         border: 2px solid;
         border-radius: 18px;
-        border-color: @surface0;
+        border-color: transparent;
         background: alpha(@base, 0.6);
         color: @yellow;
         box-shadow: none;
@@ -271,7 +271,7 @@ window#waybar {
         padding-right: 5px;
         border: 2px solid;
         border-radius: 18px;
-        border-color: @surface0;
+        border-color: transparent;
         background: alpha(@base, 0.6);
         color: @red;
         box-shadow: none;
