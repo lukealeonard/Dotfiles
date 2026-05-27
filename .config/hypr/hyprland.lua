@@ -3,9 +3,16 @@
 ------------
 
 hl.monitor({
-        output = "eDP-1",
-        mode = "1920x1200@60",
+        output = "HDMI-A-1",
+        mode = "1920x1080@240",
         position = "0x0",
+        scale = 1,
+})
+
+hl.monitor({
+        output = "HDMI-A-2",
+        mode = "1920x1080@144",
+        position = "-1920x0",
         scale = 1,
 })
 
@@ -27,7 +34,7 @@ local colors = require("catppuccin.colors")
 hl.config({
         general = {
                 gaps_in = 5,
-                gaps_out = { top = 70, right = 20, bottom = 20, left = 20 },
+                gaps_out = { top = 5, right = 5, bottom = 50, left = 5 },
                 border_size = 2,
                 col = {
                         active_border = colors.lavender,
@@ -38,7 +45,7 @@ hl.config({
                 layout = "dwindle",
         },
         decoration = {
-                rounding = 18,
+                rounding = 0,
                 rounding_power = 2,
                 active_opacity = 1.0,
                 inactive_opacity = 0.6,
@@ -99,6 +106,7 @@ hl.config({
                 kb_rules   = "",
                 follow_mouse = 1,
                 sensitivity = 0,
+                accel_profile = "flat",
                 touchpad = {
                 natural_scroll = false,
         },

@@ -2,19 +2,19 @@
 
 {
         "layer": "top",
-        "position": "top",
+        "position": "bottom",
         "exclusive-zone": 0,
-        "margin-top": 20,
+        "margin-top": 0,
         "margin-bottom": 5,
-        "margin-left": 20,
-        "margin-right": 20,
+        "margin-left": 5,
+        "margin-right": 5,
         "max-height": 20,
         "spacing": 8,
         "exclusive": false,
 
 // LEFT MODULES //
 
-        "modules-left": ["custom/oslogo", "hyprland/workspaces", "network"],
+        "modules-left": ["custom/oslogo", "hyprland/workspaces"],
         
         "custom/oslogo": {
                 "format": " 󰣇 ",
@@ -30,27 +30,11 @@
                 "height": 20
         },
 
-        "network": {
-                "interval": 60,
-                "format": " {essid}{icon}",
-                "format-icons": [" 󰤟 ", " 󰤢 ", " 󰤥 ", " 󰤨 "],
-                "format-disconnected": " 󰤮 ",
-                "format-disabled": " 󰤫 "
-        },
-
 // CENTER MODULES //
-
-        "modules-center": ["clock"],
-        "clock": {
-                "interval": 60,
-                "format": " {:%H:%M} ",
-                "max-length": 25,
-                "tooltip": false
-        },
 
 // RIGHT MODULES //
 
-        "modules-right": ["pulseaudio", "backlight", "battery"],
+        "modules-right": ["pulseaudio", "network", "clock"],
 
         "group/audio": {
                 "orientation": "horizontal",
@@ -69,19 +53,17 @@
                 "format-muted": " 󰖁  0% "
         },
 
-        "backlight": {
-                "device": "intel_backlight",
-                "format": "{icon}{percent}% ",
-                "format-icons": [" 󰃞 ", " 󰃟 ", " 󰃠 "] 
+        "network": {
+                "interval": 60,
+                "format-ethernet": "  ",
+                "format-disconnected": " 󰈀 ",
+                "format-disabled": "  "
         },
 
-        "battery": {
-                "bat": "BAT0",
+        "clock": {
                 "interval": 60,
-                "format": "{icon}{capacity}% ",
-                "format-icons": {
-                        "default": [" 󰂎 ", " 󰁺 ", " 󰁻 ", " 󰁼 ", " 󰁽 ", " 󰁾 ", " 󰁿 ", " 󰂀 ", " 󰂁 ", " 󰂂 ", " 󰁹 "],
-                        "charging": [" 󰢟 ", " 󰢜 ", " 󰂆 ", " 󰂇 ", " 󰂈 ", " 󰢝 ", " 󰂉 ", " 󰢞 ", " 󰂊 ", " 󰂋 ", " 󰂅 "] 
-                }                
+                "format": " {:%H:%M} ",
+                "max-length": 25,
+                "tooltip": false
         }
 }
