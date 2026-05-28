@@ -13,7 +13,6 @@ require("config.lazy")
 require("config.keymaps")
 
 vim.opt.statuscolumn = "%s %{v:relnum == 0 ? v:lnum : v:relnum} "
-vim.opt.guicursor = "i:hor20-blinkwait175-blinkoff150-blinkon175"
 vim.opt.mouse = ""
 
 vim.keymap.set('n', '<Up>', '<Nop>', { silent = true })

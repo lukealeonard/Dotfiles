@@ -22,7 +22,7 @@ require("config.programs")
 hl.env("XCURSOR_SIZE", "18")
 hl.env("HYPRCURSOR_SIZE", "18")
 
-local colors = require("catppuccin.colors")
+local colors = require("theme.tokyonight")
 
 hl.config({
         general = {
@@ -30,8 +30,8 @@ hl.config({
                 gaps_out = { top = 70, right = 20, bottom = 20, left = 20 },
                 border_size = 2,
                 col = {
-                        active_border = colors.lavender,
-                        inactive_border = colors.surface0,
+                        active_border = colors.blue,
+                        inactive_border = colors.fg_gutter,
                 },
                 resize_on_border = false,
                 allow_tearing = false,
@@ -41,7 +41,7 @@ hl.config({
                 rounding = 18,
                 rounding_power = 2,
                 active_opacity = 1.0,
-                inactive_opacity = 0.6,
+                inactive_opacity = 1.0,
                 shadow = {
                         enabled = true,
                         range = 16,
@@ -51,7 +51,7 @@ hl.config({
                 blur = {
                         enabled = true,
                         size = 1,
-                        passes = 6,
+                        passes = 5,
                         vibrancy = 0.2,
                 },
         },
