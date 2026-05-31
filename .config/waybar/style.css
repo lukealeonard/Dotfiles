@@ -33,7 +33,7 @@ window#waybar {
         border: 2px solid;
         border-radius: 0px;
         border-color: @surface0;
-        background: alpha(@base, 0.6);
+        background: @base;
         color: @text;
         box-shadow: none;
         text-shadow: none;
@@ -66,7 +66,7 @@ window#waybar {
         border: 2px solid;
         border-radius: 0px;
         border-color: @surface0;
-        background: alpha(@base, 0.6);
+        background: @base;
         color: @text;
         box-shadow: none;
         text-shadow: none;
@@ -80,7 +80,7 @@ window#waybar {
         border: 2px solid;
         border-radius: 0px;
         border-color: @surface0;
-        background: alpha(@base, 0.6);
+        background: @base;
         color: @text;
         box-shadow: none;
         text-shadow: none;
@@ -148,7 +148,7 @@ window#waybar {
         border: 2px solid;
         border-radius: 0px;
         border-color: @surface0;
-        background: alpha(@base, 0.6);
+        background: @base;
         color: @red;
         box-shadow: none;
         text-shadow: none;
@@ -179,7 +179,7 @@ window#waybar {
         border: 2px solid;
         border-radius: 0px;
         border-color: @surface0;
-        background: alpha(@base, 0.6);
+        background: @base;
         color: @text;
         box-shadow: none;
         text-shadow: none;
@@ -210,7 +210,7 @@ window#waybar {
         border: 2px solid;
         border-radius: 0px;
         border-color: @surface0;
-        background: alpha(@base, 0.6);
+        background: @base;
         color: @red;
         box-shadow: none;
         text-shadow: none;
@@ -241,7 +241,7 @@ window#waybar {
         border: 2px solid;
         border-radius: 0px;
         border-color: transparent;
-        background: alpha(@base, 0.6);
+        background: @base;
         color: @yellow;
         box-shadow: none;
         text-shadow: none;
@@ -272,7 +272,7 @@ window#waybar {
         border: 2px solid;
         border-radius: 0px;
         border-color: transparent;
-        background: alpha(@base, 0.6);
+        background: @base;
         color: @red;
         box-shadow: none;
         text-shadow: none;

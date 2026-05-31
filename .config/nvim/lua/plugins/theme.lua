@@ -4,9 +4,9 @@ return {
   priority = 1000, -- Load this first
   config = function()
     require("catppuccin").setup({
-      transparent_background = true,
+      transparent_background = false,
       float = {
-              transparent = true,
+              transparent = false,
               solid = true,
       },
       flavour = "mocha", -- latte, frappe, macchiato, mocha
