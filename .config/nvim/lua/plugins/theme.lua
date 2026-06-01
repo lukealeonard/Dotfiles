@@ -2,10 +2,8 @@ return {
         "folke/tokyonight.nvim",
 	name = "tokyonight",
         opts = {
-                style = "moon"
-        },
-        setup = {
-                transparent = true,
+                style = "moon",
+                transparent= false,
         },
 	config = function()
 		vim.cmd("colorscheme tokyonight-moon")

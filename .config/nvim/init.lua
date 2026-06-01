@@ -29,4 +29,3 @@ vim.keymap.set('v', '<Up>', '<Nop>', { silent = true })
 vim.keymap.set('v', '<Down>', '<Nop>', { silent = true })
 vim.keymap.set('v', '<Left>', '<Nop>', { silent = true })
 vim.keymap.set('v', '<Right>', '<Nop>', { silent = true })
-

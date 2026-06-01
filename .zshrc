@@ -8,6 +8,7 @@ source $ZSH/oh-my-zsh.sh
 alias vim=nvim
 alias yazi=y
 alias p=python
+alias a=./a.out
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
