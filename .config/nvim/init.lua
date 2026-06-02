@@ -13,6 +13,16 @@ require("config.lazy")
 require("config.keymaps")
 
 vim.opt.statuscolumn = "%s %{v:relnum == 0 ? v:lnum : v:relnum} "
+vim.opt.guicursor = "n-v-c-sm:block,i-ci-ve:block-blinkwait700-blinkon500-blinkoff500,r-cr-o:hor20"
+
+vim.api.nvim_create_autocmd("FileType", {
+        pattern = "markdown",
+        callback = function()
+                vim.opt_local.spell = true
+                vim.opt_local.spelllang = "en_us"
+        end,
+})
+
 vim.opt.mouse = ""
 
 vim.keymap.set('n', '<Up>', '<Nop>', { silent = true })

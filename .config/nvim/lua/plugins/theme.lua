@@ -1,11 +1,8 @@
 return {
-        "folke/tokyonight.nvim",
-	name = "tokyonight",
-        opts = {
-                style = "moon",
-                transparent= false,
-        },
-	config = function()
-		vim.cmd("colorscheme tokyonight-moon")
-	end
+  "yorumicolors/yorumi.nvim",
+  lazy = false,        -- load at startup
+  priority = 1000,     -- load before other plugins
+  config = function()
+    vim.cmd("colorscheme yorumi")
+  end,
 }

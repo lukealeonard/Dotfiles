@@ -75,20 +75,18 @@ element-icon {
 }
 window {
 	padding:	      5;
-	background-color: rgba(30, 30, 46, 0.6);
+	background-color: rgba(30, 30, 46, 1.0);
 	border:	      2;
         border-color: @lavender;
-        border-radius: 18;
-	width: 1880px;
-        height: 40;
-	x-offset: 20px;
-	y-offset: 20px;
+        border-radius: 0px;
+        height: 350px;
+        width: 800px;
 }
 mainbox {
 	padding: 0;
 	border:  0;
 	orientation: vertical;
-	background-color: rgba(30, 30, 46, 0.6);
+	background-color: rgba(30, 30, 46, 1.0);
 }
 message {
 	padding:	  1px ;
@@ -123,7 +121,7 @@ button {
 	cursor:     pointer;
 	spacing:    0;
 	text-color: @normal-foreground;
-	background-color: rgba(30, 30, 46, 0.6);
+	background-color: rgba(30, 30, 46, 1.0);
 }
 button selected {
 	background-color: @selected-normal-background;
@@ -148,7 +146,7 @@ inputbar {
 	width: 800px ;
 	text-color: @normal-foreground;
 	children:   [ "prompt","textbox-prompt-colon","entry","num-filtered-rows","textbox-num-sep","num-rows","case-indicator" ];
-	background-color: rgba(30, 30, 46, 0.6); 
+	background-color: rgba(30, 30, 46, 1.0); 
 }
 case-indicator {
 	spacing:    0;
@@ -164,7 +162,7 @@ entry {
 prompt {
 	spacing:    0;
 	text-color: @normal-foreground;
-	background-color: rgba(30, 30, 46, 0.6);
+	background-color: rgba(30, 30, 46, 1.0);
 }
 textbox-prompt-colon {
 	margin:     0px 0.3000em 0.0000em 0.0000em ;

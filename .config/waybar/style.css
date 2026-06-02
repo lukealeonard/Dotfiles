@@ -12,7 +12,7 @@ window#waybar {
         margin: 0px;
         padding: 0px;
         border: none;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: transparent;
         background: rgba(0, 0, 0, 0);
         color: transparent;
@@ -31,7 +31,7 @@ window#waybar {
         padding-bottom: 0px;
         padding-top: 2px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: transparent;
         background: alpha(@bg, 0.6);
         color: @red;
@@ -47,7 +47,7 @@ window#waybar {
         padding-bottom: 0px;
         padding-top: 2px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: @red;
         background: @red;
         color: @bg;
@@ -64,7 +64,7 @@ window#waybar {
         padding-left: 0px;
         padding-right: 0px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: transparent;
         background: alpha(@bg, 0.6);
         color: @red;
@@ -78,7 +78,7 @@ window#waybar {
         padding-left: 0px;
         padding-right: 0px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: transparent;
         background: alpha(@bg, 0.6);
         color: @red;
@@ -95,7 +95,7 @@ window#waybar {
         padding-left: 5px;
         padding-right: 5px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: transparent; 
         background: transparent;
         color: @red;
@@ -111,7 +111,7 @@ window#waybar {
         padding-left: 5px;
         padding-right: 5px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: @red;
         background: @red;
         color: @bg;
@@ -128,7 +128,7 @@ window#waybar {
         padding-left: 5px;
         padding-right: 5px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: @red;
         background: @red;
         color: @bg;
@@ -146,7 +146,7 @@ window#waybar {
         padding-left: 5px;
         padding-right: 5px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: transparent;
         background: alpha(@bg, 0.6);
         color: @red;
@@ -160,7 +160,7 @@ window#waybar {
         padding-left: 5px;
         padding-right: 5px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: @red;
         background: @red;
         color: @bg;
@@ -177,7 +177,7 @@ window#waybar {
         padding-left: 5px;
         padding-right: 5px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: transparent;
         background: alpha(@bg, 0.6);
         color: @red;
@@ -191,7 +191,7 @@ window#waybar {
         padding-left: 5px;
         padding-right: 5px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: @red;
         background: @red;
         color: @bg;
@@ -208,7 +208,7 @@ window#waybar {
         padding-left: 5px;
         padding-right: 5px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: transparent;
         background: alpha(@bg, 0.6);
         color: @red;
@@ -222,7 +222,7 @@ window#waybar {
         padding-left: 5px;
         padding-right: 5px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: @red;
         background: @red;
         color: @bg;
@@ -239,7 +239,7 @@ window#waybar {
         padding-left: 5px;
         padding-right: 5px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: transparent;
         background: alpha(@bg, 0.6);
         color: @red;
@@ -253,7 +253,7 @@ window#waybar {
         padding-left: 5px;
         padding-right: 5px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: @red;
         background: @red;
         color: @bg;
@@ -270,7 +270,7 @@ window#waybar {
         padding-left: 5px;
         padding-right: 5px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: transparent;
         background: alpha(@bg, 0.6);
         color: @red;
@@ -284,7 +284,7 @@ window#waybar {
         padding-left: 5px;
         padding-right: 5px;
         border: 2px solid;
-        border-radius: 18px;
+        border-radius: 0px;
         border-color: @red;
         background: @red;
         color: @bg;
