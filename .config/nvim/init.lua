@@ -1,13 +1,10 @@
-vim.cmd([[
-	set number
-	syntax on
-	set tabstop=8
-	set expandtab
-	set smarttab
-	set relativenumber
-	set shiftwidth=8
-        set cursorline
-]])
+vim.opt.number = true
+vim.opt.tabstop = 4
+vim.opt.expandtab = true
+vim.opt.smarttab = true
+vim.opt.relativenumber = true
+vim.opt.shiftwidth = 4
+vim.opt.cursorline = true
 
 require("config.lazy")
 require("config.keymaps")

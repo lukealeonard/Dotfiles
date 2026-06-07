@@ -3,10 +3,10 @@
 ------------
 
 hl.monitor({
-        output = "eDP-1",
-        mode = "1920x1200@60",
-        position = "0x0",
-        scale = 1,
+	output = "eDP-1",
+	mode = "1920x1200@60",
+	position = "0x0",
+	scale = 1,
 })
 
 ----------------------
@@ -30,8 +30,8 @@ hl.config({
                 gaps_out = { top = 70, right = 20, bottom = 20, left = 20 },
                 border_size = 2,
                 col = {
-                        active_border = colors.blue,
-                        inactive_border = colors.fg_gutter,
+                        active_border = colors.fg,
+                        inactive_border = colors.bg_highlight,
                 },
                 resize_on_border = false,
                 allow_tearing = false,

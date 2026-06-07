@@ -274,7 +274,7 @@ font_size 14
 # cursor #cccccc
 # cursor_text_color #111111
 cursor_beam_thickness 1
-cursor_shape underline
+cursor_shape block
 shell_integration no-cursor
 
 #: The thickness of the beam cursor (in pts).
@@ -1493,7 +1493,7 @@ cursor_trail 0
 
 #: The foreground and background colors.
 
-background_opacity 0.6
+background_opacity 1.0
 
 #: The opacity of the terminal background color. A number between zero
 #: and one, where one is opaque and zero is fully transparent. This
@@ -3060,7 +3060,7 @@ background_opacity 0.6
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="JetBrainsMono Nerd Font Mono"
+font_family      family="Maple Mono"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto

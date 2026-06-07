@@ -1,8 +1,14 @@
 return {
-  "yorumicolors/yorumi.nvim",
-  lazy = false,        -- load at startup
-  priority = 1000,     -- load before other plugins
-  config = function()
-    vim.cmd("colorscheme yorumi")
-  end,
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    priority = 1000,
+    opts = {
+      flavour = "mocha",
+      transparent_background = false,
+    },
+    init = function()
+      vim.cmd.colorscheme "catppuccin"
+    end,
+  },
 }
