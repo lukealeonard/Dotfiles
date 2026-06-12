@@ -2,12 +2,7 @@
 --MONITORS--
 ------------
 
-hl.monitor({
-	output = "eDP-1",
-	mode = "1920x1200@60",
-	position = "0x0",
-	scale = 1,
-})
+require("config.monitors")
 
 ----------------------
 --PROGRAMS&AUTOSTART--
@@ -49,7 +44,7 @@ hl.config({
                         color = colors.base,
                 },
                 blur = {
-                        enabled = true,
+                        enabled = false,
                         size = 1,
                         passes = 6,
                         vibrancy = 0.2,
