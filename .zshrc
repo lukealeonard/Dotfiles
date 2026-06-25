@@ -10,6 +10,7 @@ alias vim=nvim
 alias yazi=y
 alias p=python
 alias a=./a.out
+alias pass=passwordgenerator
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
@@ -21,5 +22,4 @@ function y() {
 
 export EDITOR="nvim"
 export PATH="$PATH:/home/luke/.local/bin"
-eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml

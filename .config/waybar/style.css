@@ -1,4 +1,4 @@
-@import "tokyonight-moon.css";
+@import "mocha.css";
 
 * {
         font-family: Adwaita, JetBrainsMonoNerdFontPropo;
@@ -32,8 +32,8 @@ window#waybar {
         padding-top: 2px;
         border: 2px solid;
         border-radius: 0px;
-        border-color: @bg_highlight;
-        background: alpha(@bg, 0.6);
+        border-color: @surface0;
+        background: alpha(@base, 0.6);
         color: @red;
         box-shadow: none;
         text-shadow: none;
@@ -65,8 +65,8 @@ window#waybar {
         padding-right: 0px;
         border: 2px solid;
         border-radius: 0px;
-        border-color: @bg_highlight;
-        background: alpha(@bg, 0.6);
+        border-color: @surface0;
+        background: alpha(@base, 0.6);
         color: @red;
         box-shadow: none;
         text-shadow: none;
@@ -80,7 +80,7 @@ window#waybar {
         border: 2px solid;
         border-radius: 0px;
         border-color: transparent;
-        background: alpha(@bg, 0.6);
+        background: alpha(@base, 0.6);
         color: @red;
         box-shadow: none;
         text-shadow: none;
@@ -147,8 +147,8 @@ window#waybar {
         padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
-        border-color: @bg_highlight;
-        background: alpha(@bg, 0.6);
+        border-color: @surface0;
+        background: alpha(@base, 0.6);
         color: @red;
         box-shadow: none;
         text-shadow: none;
@@ -178,8 +178,8 @@ window#waybar {
         padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
-        border-color: @bg_highlight;
-        background: alpha(@bg, 0.6);
+        border-color: @surface0;
+        background: alpha(@base, 0.6);
         color: @red;
         box-shadow: none;
         text-shadow: none;
@@ -209,8 +209,8 @@ window#waybar {
         padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
-        border-color: @bg_highlight;
-        background: alpha(@bg, 0.6);
+        border-color: @surface0;
+        background: alpha(@base, 0.6);
         color: @red;
         box-shadow: none;
         text-shadow: none;
@@ -240,8 +240,8 @@ window#waybar {
         padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
-        border-color: @bg_highlight;
-        background: alpha(@bg, 0.6);
+        border-color: @surface0;
+        background: alpha(@base, 0.6);
         color: @red;
         box-shadow: none;
         text-shadow: none;
@@ -271,8 +271,8 @@ window#waybar {
         padding-right: 5px;
         border: 2px solid;
         border-radius: 0px;
-        border-color: @bg_highlight;
-        background: alpha(@bg, 0.6);
+        border-color: @surface0;
+        background: alpha(@base, 0.6);
         color: @red;
         box-shadow: none;
         text-shadow: none;
